@@ -1,0 +1,10 @@
+{
+   "extends": "mother",
+   "globals": {
+      "it": true,
+      "describe": true,
+   },
+   "rules": {
+      "import/no-extraneous-dependencies": 0
+   }
+}

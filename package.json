@@ -1,0 +1,29 @@
+{
+  "name": "mongoose-whitelist",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "Tiny plugin to simplify whitelisting",
+  "scripts": {
+    "test": "mocha test.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js .; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mother/mongoose-whitelist.git"
+  },
+  "keywords": [
+    "mongoose",
+    "whitelist"
+  ],
+  "author": "Ajay Sabhaney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mother/mongoose-whitelist/issues"
+  },
+  "homepage": "https://github.com/mother/mongoose-whitelist",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint-config-mother": "latest",
+    "mocha": "3.0.2"
+  }
+}
